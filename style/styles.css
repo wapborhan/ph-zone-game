@@ -244,3 +244,38 @@ nav .mainmenu .menu ul li:last-child i {
 .mainservices .ser-right .tag-img img {
   width: 60%;
 }
+/* Categories */
+.cat {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.cat .card {
+  width: 200px;
+  border-radius: 50px;
+  display: flex;
+  padding: 10px;
+  transition: border 0.3s;
+  border: 2px solid transparent;
+  /* background-color: red; */
+}
+.cat .card img {
+  width: 25%;
+}
+.cat .card h2 {
+  margin-left: 20px;
+  color: #0b0223;
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s;
+}
+.cat .card:hover {
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+}
+.cat .card:hover h2 {
+  color: var(--primary-color);
+}
