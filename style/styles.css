@@ -1,0 +1,157 @@
+/* Default Css */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #ff42a5;
+  --secondary-color: #4ec5f7;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+.wrapper {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+/* Main Css */
+header {
+  height: 100vh;
+}
+header nav {
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+nav .mainmenu {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0;
+}
+nav .mainmenu .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+nav .mainmenu .logo .text {
+  color: #0b0223;
+  font-size: 45px;
+  font-weight: 700;
+}
+nav .mainmenu .logo .text span {
+  color: var(--primary-color);
+  background-clip: text;
+}
+nav .mainmenu .menu {
+  display: flex;
+  align-items: center;
+}
+nav .mainmenu .menu ul {
+  display: flex;
+  align-items: center;
+}
+nav .mainmenu .menu ul li {
+  list-style: none;
+  margin-right: 32px;
+}
+nav .mainmenu .menu ul li a {
+  color: #3c354f;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+}
+nav .mainmenu .menu ul li:last-child {
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 17px 25px;
+}
+nav .mainmenu .menu ul li:last-child i {
+  margin-left: 10px;
+}
+.fa-youtube {
+  color: #f61c0d;
+}
+.fa-tiktok {
+  color: #000000;
+}
+/* Banner */
+#mainbabber {
+  background: #8c57ee0d;
+  height: 85vh;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+}
+.banner .ban-left {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 80px 0;
+}
+.banner .ban-left h2 {
+  color: #0b0223;
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.banner .ban-left h1 {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 95px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 15px 0;
+}
+
+.banner .ban-left ul li {
+  list-style: none;
+  color: #534c64;
+  font-family: Work Sans;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: lowercase;
+  margin-bottom: 10px;
+}
+.banner .ban-left ul li i {
+  margin-right: 15px;
+  color: var(--primary-color);
+}
+.banner .ban-left .ban-left-btn {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+.banner .ban-left .ban-left-btn button {
+  display: inline-flex;
+  padding: 21px 40px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 48px;
+  border: 0;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.btn1 {
+  background: var(--primary-color);
+}
+.btn2 {
+  background: var(--secondary-color);
+}
+.banner .ban-right {
+  width: 100%;
+  height: 100%;
+}
+.banner .ban-right img {
+  width: 75%;
+  height: 100%;
+  float: right;
+}
