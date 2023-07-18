@@ -17,7 +17,9 @@ body {
   width: 1140px;
   margin: 0 auto;
 }
-
+section {
+  padding: 80px 0;
+}
 /* Main Css */
 header {
   height: 100vh;
@@ -154,4 +156,46 @@ nav .mainmenu .menu ul li:last-child i {
   width: 75%;
   height: 100%;
   float: right;
+}
+/* Online Games */
+.onlinegames {
+}
+
+.onlinegames .title {
+  text-align: center;
+}
+.onlinegames .title h1 {
+  color: #0b0223;
+  font-size: 48px;
+  font-weight: 700;
+}
+.onlinegames .title h1 span {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.onlinegames .title p {
+  color: #534c64;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 15px;
+}
+.onlinegames .onl-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 35px;
+}
+.onlinegames .onl-cards .card img {
+  width: 100%;
+}
+.onlinegames .onl-cards .card {
+  width: 100%;
+}
+.onlinegames .onl-cards .card h2 {
+  color: #534c64;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 30px;
 }
