@@ -199,3 +199,48 @@ nav .mainmenu .menu ul li:last-child i {
   font-weight: 500;
   line-height: 30px;
 }
+/* Services Section */
+.mainservices {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+.mainservices .ser-left {
+  padding: 0 70px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: right;
+}
+.mainservices .ser-left h2 {
+  font-size: 48px;
+  font-weight: 700;
+}
+.mainservices .ser-left h2 span {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.mainservices .ser-left p {
+  color: #534c64;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+.mainservices .ser-right {
+  position: relative;
+  width: 100%;
+}
+.mainservices .ser-right .main-img {
+  width: 100%;
+}
+.mainservices .ser-right .tag-img {
+  position: absolute;
+  bottom: -15%;
+  left: -20%;
+}
+.mainservices .ser-right .tag-img img {
+  width: 60%;
+}
