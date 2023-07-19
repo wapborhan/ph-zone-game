@@ -153,13 +153,13 @@ nav .mainmenu .menu ul li:last-child i {
   height: 100%;
 }
 .banner .ban-right img {
-  width: 75%;
+  width: 65%;
   height: 100%;
   float: right;
 }
 /* Online Games */
-.onlinegames {
-}
+/* .onlinegames {
+} */
 
 .onlinegames .title {
   text-align: center;
@@ -278,4 +278,11 @@ nav .mainmenu .menu ul li:last-child i {
 }
 .cat .card:hover h2 {
   color: var(--primary-color);
+}
+/* Footer */
+
+.mainfoot {
+  text-align: center;
+  background: #0b0223;
+  padding: 80px 0;
 }
