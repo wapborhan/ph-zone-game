@@ -79,8 +79,14 @@
     text-align: center;
   }
   .mainservices .ser-left h2 {
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 700;
+  }
+  .mainservices {
+    gap: 50px;
+  }
+  .mainservices .ser-left p {
+    font-size: 13px;
   }
   .mainservices .ser-right .tag-img img,
   .ser2 .ser-right .tag-img img {
@@ -95,12 +101,12 @@
     left: 5%;
   }
   .cat .card {
-    width: 140px;
+    width: 90px;
     padding: 5px;
   }
   .cat .card h2 {
-    margin-left: 12px;
-    font-size: 12px;
+    margin-left: 7px;
+    font-size: 7px;
   }
   .cat .card:hover {
     border: 1px solid var(--primary-color);
@@ -121,10 +127,25 @@
     margin-top: 20px;
   }
   .onlinegames .title h1 {
-    font-size: 33px;
+    font-size: 21px;
+  }
+  .onlinegames .title p {
+    font-size: 14px;
+  }
+  .mainabout .about-right .content .quited {
+    font-size: 15px;
+  }
+  .mainabout .about-right .content .quited span {
+    font-size: 15px;
   }
   .mainfoot .copyright {
     margin-top: 40px;
-    padding: 0 169px;
+    padding: 0 92px;
+  }
+  .mainfoot .imp-links ul li a {
+    margin-right: 0;
+  }
+  .mainfoot {
+    padding: 50px 0;
   }
 }
