@@ -14,8 +14,9 @@ body {
 }
 
 .wrapper {
-  width: 1140px;
+  /* width: 1140px; */
   margin: 0 auto;
+  padding: 0 160px;
 }
 section {
   padding: 80px 0;

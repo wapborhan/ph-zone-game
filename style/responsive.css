@@ -1,11 +1,10 @@
 @media screen and (max-width: 576px) {
   .wrapper {
-    /* width: 75%; */
-    width: 500px;
     padding: 0 50px;
   }
   header {
     height: 100%;
+    width: 100%;
   }
   nav .mainmenu {
     align-items: center;
@@ -17,15 +16,33 @@
   nav .mainmenu .menu ul li {
     margin-top: 20px;
   }
+  nav .mainmenu .logo .text {
+    font-size: 28px;
+  }
   .banner {
     flex-direction: column-reverse;
+  }
+  .banner .ban-right {
+    width: 100%;
   }
   .banner .ban-right img {
     width: 100%;
     float: none;
   }
+  .banner .ban-left h2 {
+    font-size: 30px;
+  }
   .banner .ban-left h1 {
-    font-size: 70px;
+    font-size: 55px;
+  }
+  .banner .ban-left ul li {
+    font-size: 11px;
+  }
+  nav .mainmenu .menu ul li:last-child {
+    margin-right: 0;
+  }
+  .banner .ban-left .ban-left-btn button {
+    padding: 10px 20px;
   }
   .mainabout {
     grid-template-columns: repeat(1, 1fr);
