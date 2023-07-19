@@ -83,7 +83,7 @@ nav .mainmenu .menu ul li:last-child i {
 /* Banner */
 #mainbabber {
   background: #8c57ee0d;
-  height: 85vh;
+  /* height: 85vh; */
   background: url("../images/Group 14.png");
   background-repeat: no-repeat;
 }
@@ -364,6 +364,14 @@ nav .mainmenu .menu ul li:last-child i {
   gap: 20px;
   justify-content: center;
 }
+
+/* .cat {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  justify-items: center;
+  grid-template-rows: auto;
+} */
 .cat .card {
   width: 200px;
   border-radius: 50px;

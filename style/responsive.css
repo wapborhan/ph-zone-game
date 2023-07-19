@@ -1,0 +1,71 @@
+@media screen and (max-width: 576px) {
+  .wrapper {
+    /* width: 75%; */
+    width: 500px;
+    padding: 0 50px;
+  }
+  header {
+    height: 100%;
+  }
+  nav .mainmenu {
+    align-items: center;
+  }
+  nav .mainmenu,
+  nav .mainmenu .menu ul {
+    flex-direction: column;
+  }
+  nav .mainmenu .menu ul li {
+    margin-top: 20px;
+  }
+  .banner {
+    flex-direction: column-reverse;
+  }
+  .banner .ban-right img {
+    width: 100%;
+    float: none;
+  }
+  .banner .ban-left h1 {
+    font-size: 70px;
+  }
+  .mainabout {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /*  */
+  .onlinegames .onl-cards {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+  }
+  .mainservices {
+    flex-direction: column;
+  }
+  .mainservices .ser-left {
+    padding: 0 20px;
+    text-align: center;
+  }
+  .mainservices .ser-left h2 {
+    font-size: 35px;
+    font-weight: 700;
+  }
+  .mainservices .ser-right .tag-img img,
+  .ser2 .ser-right .tag-img img {
+    width: 40%;
+  }
+  .mainservices .ser-right .tag-img {
+    left: -13%;
+  }
+  .cat .card {
+    width: 95px;
+    padding: 5px;
+  }
+  .cat .card h2 {
+    margin-left: 12px;
+    font-size: 10px;
+  }
+  .cat .card:hover {
+    border: 1px solid var(--primary-color);
+  }
+  .foot-menu ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
