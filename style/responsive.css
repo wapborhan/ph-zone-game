@@ -148,6 +148,9 @@
   .mainfoot {
     padding: 50px 0;
   }
+  .about2 .about-right {
+    padding: 0 25px;
+  }
 }
 @media screen and (min-width: 576px) and (max-width: 992px) {
   .wrapper {
