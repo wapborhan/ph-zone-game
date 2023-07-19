@@ -149,3 +149,88 @@
     padding: 50px 0;
   }
 }
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .wrapper {
+    padding: 0 50px;
+  }
+  section {
+    padding: 40px 0;
+  }
+  nav .mainmenu .menu ul li:last-child {
+    margin-right: 0;
+  }
+  nav .mainmenu .menu ul li:last-child {
+    padding: 8px 10px;
+    text-align: center;
+  }
+  nav .mainmenu .menu ul li:last-child span {
+    display: block;
+  }
+  .banner .ban-left h2 {
+    font-size: 32px;
+  }
+  .banner .ban-left h1 {
+    font-size: 70px;
+    margin: 8px 0;
+  }
+  .banner .ban-left ul li {
+    font-size: 13px;
+  }
+  .banner .ban-left .ban-left-btn button {
+    display: inline-flex;
+    padding: 10px 20px;
+  }
+  .banner .ban-left {
+    padding: 30px 0;
+  }
+  .mainabout .about-left {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .mainabout .about-right .content h2 {
+    font-size: 40px;
+  }
+  .mainabout .about-right .content p {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 13px 0;
+  }
+  .mainabout .about-right .content button {
+    padding: 10px 20px;
+  }
+  .mainabout .about-right .content .quited {
+    font-size: 18px;
+
+    line-height: 26px;
+    margin-top: 15px;
+  }
+  .onlinegames .title h1 {
+    font-size: 30px;
+  }
+  .onlinegames .title p {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  .onlinegames .onl-cards .card h2 {
+    font-size: 11px;
+  }
+  .mainservices .ser-left h2 {
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .mainservices .ser-right .tag-img img {
+    width: 50%;
+  }
+  .mainservices .ser-left p {
+    font-size: 13px;
+    margin-top: 20px;
+  }
+  .mainservices .ser-left h2 span {
+    display: block;
+  }
+  .ser2 .ser-right .tag-img img {
+    width: 70%;
+  }
+}

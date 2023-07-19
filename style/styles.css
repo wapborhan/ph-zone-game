@@ -196,7 +196,6 @@ nav .mainmenu .menu ul li:last-child i {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 30px;
   margin: 20px 0;
 }
 .mainabout .about-right .content {
@@ -299,7 +298,6 @@ nav .mainmenu .menu ul li:last-child i {
   color: #534c64;
   font-size: 15px;
   font-weight: 500;
-  line-height: 30px;
 }
 /* Services Section */
 .mainservices {
