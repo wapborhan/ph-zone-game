@@ -151,6 +151,12 @@
   .about2 .about-right {
     padding: 0 25px;
   }
+  .about2 .about-right .list ul li {
+    font-size: 11px;
+  }
+  .about2 .about-right .content {
+    text-align: left;
+  }
 }
 @media screen and (min-width: 576px) and (max-width: 992px) {
   .wrapper {
@@ -235,5 +241,21 @@
   }
   .ser2 .ser-right .tag-img img {
     width: 70%;
+  }
+  .about2 .about-right {
+    padding-left: 50px;
+  }
+  .about2 .about-right h3 {
+    font-size: 11px;
+  }
+  .about2 .about-right .list ul li {
+    font-size: 10px;
+    margin-top: 7px;
+  }
+  .about2 .about-right .list {
+    margin: 15px 0;
+  }
+  .about2 .about-right .content {
+    padding: 20px 0;
   }
 }

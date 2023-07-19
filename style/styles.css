@@ -369,7 +369,7 @@ nav .mainmenu .menu ul li:last-child i {
 .about2 .about-right .content {
   text-align: left;
   color: #fff;
-  padding-top: 40px;
+  padding: 20px;
 }
 .about2 .about-right h1 {
   color: #fff;
@@ -390,6 +390,9 @@ nav .mainmenu .menu ul li:last-child i {
   display: flex;
   margin: 35px 0;
   justify-content: space-between;
+}
+.about2 .about-right .list ul:first-child {
+  text-align: left;
 }
 .about2 .about-right .list ul:last-child {
   text-align: right;
