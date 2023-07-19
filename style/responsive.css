@@ -29,6 +29,10 @@
     width: 100%;
     float: none;
   }
+  .banner .ban-left {
+    align-items: center;
+    padding: 20px 0;
+  }
   .banner .ban-left h2 {
     font-size: 30px;
   }
@@ -44,8 +48,23 @@
   .banner .ban-left .ban-left-btn button {
     padding: 10px 20px;
   }
+  .mainabout .about-right .content {
+    text-align: center;
+  }
+  .mainabout .about-right .content p {
+    text-align: center;
+  }
+  .mainabout .about-right .content h2 {
+    text-align: center;
+  }
   .mainabout {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .mainservices .ser-left h2 span {
+    display: block;
+  }
+  .onlinegames .onl-cards .card h2 {
+    font-size: 20px;
   }
   /*  */
   .onlinegames .onl-cards {
@@ -67,22 +86,42 @@
   .ser2 .ser-right .tag-img img {
     width: 40%;
   }
+  .mainservices .ser-right .main-img {
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+  }
   .mainservices .ser-right .tag-img {
-    left: -13%;
+    left: 5%;
   }
   .cat .card {
-    width: 95px;
+    width: 140px;
     padding: 5px;
   }
   .cat .card h2 {
     margin-left: 12px;
-    font-size: 10px;
+    font-size: 12px;
   }
   .cat .card:hover {
     border: 1px solid var(--primary-color);
   }
-  .foot-menu ul {
+  .foot-menu ul,
+  .mainfoot .social ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .mainfoot .imp-links ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .mainfoot .foot-menu ul li,
+  .imp-links ul li,
+  .mainfoot .social ul li {
+    margin-top: 20px;
+  }
+  .mainfoot .copyright {
+    margin-top: 40px;
+    padding: 0 169px;
   }
 }
