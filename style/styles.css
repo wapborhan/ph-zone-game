@@ -85,6 +85,7 @@ nav .mainmenu .menu ul li:last-child i {
   background: #8c57ee0d;
   height: 85vh;
   background: url("../images/Group 14.png");
+  background-repeat: no-repeat;
 }
 
 .banner {
@@ -154,7 +155,7 @@ nav .mainmenu .menu ul li:last-child i {
   height: 100%;
 }
 .banner .ban-right img {
-  width: 65%;
+  width: 72%;
   height: 100%;
   float: right;
 }
