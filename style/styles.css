@@ -84,6 +84,7 @@ nav .mainmenu .menu ul li:last-child i {
 #mainbabber {
   background: #8c57ee0d;
   height: 85vh;
+  background: url("../images/Group 14.png");
 }
 
 .banner {
@@ -157,6 +158,70 @@ nav .mainmenu .menu ul li:last-child i {
   height: 100%;
   float: right;
 }
+
+/* About */
+#about {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+}
+.mainabout {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+}
+.mainabout .about-left {
+  width: 100%;
+}
+.mainabout .about-left img {
+  width: 100%;
+}
+.mainabout .about-right .content h2 {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: right;
+  font-size: 48px;
+  font-weight: 700;
+}
+.mainabout .about-right .content p {
+  color: #534c64;
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 20px 0;
+}
+.mainabout .about-right .content {
+  text-align: right;
+}
+.mainabout .about-right .content button {
+  border-radius: 48px;
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  border: 0;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 21px 40px;
+}
+.mainabout .about-right .content .quited {
+  color: #534c64;
+  font-family: Work Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 45px;
+  margin-top: 20px;
+}
+.mainabout .about-right .content .quited span {
+  font-size: 24px;
+  font-weight: 400;
+}
+
 /* Online Games */
 /* .onlinegames {
 } */
