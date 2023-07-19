@@ -205,6 +205,9 @@ nav .mainmenu .menu ul li:last-child i {
   justify-content: space-between;
   gap: 100px;
 }
+.ser2 {
+  flex-direction: row-reverse;
+}
 .mainservices .ser-left {
   padding: 0 70px;
   display: flex;
@@ -233,6 +236,10 @@ nav .mainmenu .menu ul li:last-child i {
   position: relative;
   width: 100%;
 }
+.ser2 .ser-right {
+  position: relative;
+  width: 100%;
+}
 .mainservices .ser-right .main-img {
   width: 100%;
 }
@@ -241,7 +248,12 @@ nav .mainmenu .menu ul li:last-child i {
   bottom: -15%;
   left: -20%;
 }
-.mainservices .ser-right .tag-img img {
+.ser2 .ser-right .tag-img {
+  left: 80%;
+  width: 65%;
+}
+.mainservices .ser-right .tag-img img,
+.ser2 .ser-right .tag-img img {
   width: 60%;
 }
 /* Categories */
